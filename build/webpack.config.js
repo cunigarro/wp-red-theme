@@ -40,7 +40,7 @@ module.exports = {
   },
   plugins: [
     new ExtractTextPlugin({
-      filename: 'style.css',
+      filename: './dist/css/style.css',
       allChunks: true
     })
   ]
