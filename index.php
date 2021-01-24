@@ -1,3 +1,5 @@
 <?php get_header(); ?>
-  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic repellendus molestiae voluptate sequi. In harum pariatur illum odio consectetur nam beatae commodi doloremque accusantium sit laboriosam reprehenderit repellat, cum saepe!
+  <div class="container mx-auto">
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis suscipit vitae excepturi ullam impedit at dignissimos quos itaque ut nostrum, sed minus quia veritatis placeat recusandae atque corrupti perspiciatis nobis.
+  </div>
 <?php get_footer(); ?>

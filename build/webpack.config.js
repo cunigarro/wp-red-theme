@@ -1,6 +1,7 @@
 const path = require('path');
-const ExtractTextPlugin = require('extract-text-webpack-plugin')  ;
-const autoprefixer = require('autoprefixer')  ;
+const ExtractTextPlugin = require('extract-text-webpack-plugin');
+const autoprefixer = require('autoprefixer');
+const tailwindcss = require('tailwindcss');
 
 module.exports = {
   entry: ['./src/js/main.js', './src/scss/style.scss'],
@@ -14,22 +15,15 @@ module.exports = {
         use: ExtractTextPlugin.extract({
           use: [
             {
-              loader: 'css-loader',
-              options: {
-                sourceMap: true
-              }
+              loader: 'css-loader', options: { importLoaders: 1 }
             },
             {
-              loader: 'postcss-loader',
-              options: {
-                sourceMap: true,
-                plugins: () => [autoprefixer]
-              }
+              loader: 'postcss-loader'
             },
             {
               loader: 'sass-loader',
               options: {
-                sourceMap: true
+                plugins: () => [autoprefixer()]
               }
             }
           ],
