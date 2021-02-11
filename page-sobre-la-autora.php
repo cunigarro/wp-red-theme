@@ -23,15 +23,19 @@
     </p>
 
     <p class="mb-3 font-semibold">
-      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio magnam corporis, assumenda veniam sapiente omnis qui repudiandae asperiores totam itaque commodi! Quod, nisi ad officia sapiente atque similique totam eius?
+      Nací en 1965, perteneciente a una generación de transición. Cuando era niña debía hacer lo que decían mis padres, cuando fui madre escuché lo que querían mis hijos. He tenido que romper muchas cadenas y estereotipos para ser la mujer que soy ahora.
     </p>
 
     <p class="mb-3">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta a sit minima modi, architecto quidem sunt illo numquam praesentium? Laboriosam beatae consequuntur doloremque repellat error molestias alias inventore maxime libero.
+      Amo la naturaleza, soy humanista y optimista. Encuentro la diversidad como la fuerza que enriquece el mundo.
     </p>
 
     <p class="mb-3">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta a sit minima modi, architecto quidem sunt illo numquam praesentium? Laboriosam beatae consequuntur doloremque repellat error molestias alias inventore maxime libero.
+      Bienvenido a mi blog, quiero compartir contigo mis escritos. Te invito a recorrer el camino desde las experiencias, los sueños y las reflexiones.
+    </p>
+
+    <p class="mb-3">
+      Aquí encontrarás las ideas e imágenes que han pasado y pasan por la vida de una mujer, hija de su tiempo, que ha aprendido y lo sigue haciendo, a seguir su corazón en contra de las enseñanzas y las directrices sociales de su época.
     </p>
   </div>
 </div>
