@@ -8,14 +8,14 @@
   </head>
   <body>
     <!-- This example requires Tailwind CSS v2.0+ -->
-    <header class="sticky top-0 bg-white z-10 py-5">
-      <div class="container mx-auto flex items-end px-4">
+    <header class="sticky top-0 bg-white z-10 py-5 shadow">
+      <div class="container mx-auto flex items-center px-4">
         <img class="mr-3" src="https://via.placeholder.com/160x50" alt="">
         <div class="flex-1 text-right">
           <div>
-            <img class="inline-block" src="https://via.placeholder.com/20x20" alt="">
+            <i class="mdi mdi-instagram mdi-24px text-red-600"></i>
           </div>
-          <ul class="list-none -mx-2">
+          <ul class="list-none -mx-2 text-gray-600">
             <li class="inline-block mx-2">
               <a class="font-bold" href="">
                 Post recientes
