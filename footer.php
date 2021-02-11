@@ -2,9 +2,9 @@
       <div class="container mx-auto px-4 border-b border-red-600">
         <div class="pt-12 pb-6 grid grid-cols-3 gap-8">
           <div>
-            <img class="mb-4" src="https://via.placeholder.com/160x50" alt="">
+            <img class="mb-1 w-auto h-16 -mt-3 -ml-3" src="<?php echo get_template_directory_uri() . '/dist/img/logotipo.svg' ?>" alt="">
             <p class="mb-0 text-md font-semibold text-gray-600">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero harum, tempore.
+              Tiene que ver con la vida plena, incluso viendo la muerte como parte de la vida misma.
             </p>
           </div>
 

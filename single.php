@@ -35,7 +35,7 @@
 
       <hr class="border-red-600 border-1 my-10">
       <div class="flex">
-        <div class="w-28 h-28 bg-gray-200 rounded-full mr-7"></div>
+        <img class="w-28 h-28 mr-7" src="<?php echo get_template_directory_uri() . '/dist/img/foto-2.jpg' ?>" alt="">
         <div class="flex-1">
           <div class="mb-4 flex items-center">
             <p class="font-semibold flex-1 text-red-600 text-lg">

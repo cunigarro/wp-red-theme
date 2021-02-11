@@ -4,7 +4,7 @@ const autoprefixer = require('autoprefixer');
 const tailwindcss = require('tailwindcss');
 
 module.exports = {
-  entry: ['./src/js/main.js', './src/scss/style.scss'],
+  entry: ['./src/js/main.js'],
   output: {
     filename: './dist/js/main.min.js',
   },
@@ -29,7 +29,17 @@ module.exports = {
           ],
           fallback: 'style-loader'
         })
-      }
+      },
+      {
+        test: /\.(png|jp(e*)g|svg)$/,
+        use: [{
+          loader: 'file-loader',
+          options: {
+            name: '[name].[ext]',
+            outputPath: 'dist/img/'
+          }
+        }]
+      },
     ]
   },
   plugins: [

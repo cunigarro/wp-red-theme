@@ -2,7 +2,7 @@
 
 <div class="container mx-auto px-4 py-10 flex-1 grid grid-cols-12 gap-10">
   <div class="col-span-4 text-center">
-    <div class="w-80 h-80 bg-gray-200 rounded-full inline-block mb-4"></div>
+    <img class="w-80 h-80 inline-block mb-4" src="<?php echo get_template_directory_uri() . '/dist/img/foto-1.jpg' ?>" alt="">
     <ul class="flex justify-center">
       <li class="w-10 h-10 bg-red-50 rounded-full flex justify-center items-center mr-3">
         <i class="mdi mdi-twitter mdi-24px text-red-600"></i>
