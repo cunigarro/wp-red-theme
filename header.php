@@ -17,7 +17,7 @@
           </div>
           <ul class="list-none -mx-2 text-gray-600">
             <li class="inline-block mx-2">
-              <a class="font-bold" href="">
+              <a class="font-semibold" href="">
                 Post recientes
               </a>
             </li>
