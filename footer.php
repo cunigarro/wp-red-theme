@@ -3,9 +3,9 @@
         <div class="pt-12 pb-6 grid grid-cols-3 gap-8">
           <div>
             <img class="mb-1 w-auto h-16 -mt-3 -ml-3" src="<?php echo get_template_directory_uri() . '/dist/img/logotipo.svg' ?>" alt="">
-            <p class="mb-0 text-md font-semibold text-gray-600">
+            <h4 class="mb-0 text-lg text-gray-600">
               Tiene que ver con la vida plena, incluso viendo la muerte como parte de la vida misma.
-            </p>
+            </h4>
           </div>
 
           <div class="flex px-14">
