@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-<div class="container mx-auto text-light-orange px-4">
+<div class="container mx-auto text-light-orange px-4 flex-1">
   <img src="https://picsum.photos/1500/700" alt="">
 
   <div class="grid grid-cols-3 gap-8 py-10">

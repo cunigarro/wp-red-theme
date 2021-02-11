@@ -1,12 +1,12 @@
 <!doctype html>
-<html lang="es">
+<html class="h-full" lang="es">
   <head>
     <title>Voz Propia</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <?php wp_head(); ?>
   </head>
-  <body>
+  <body class="flex flex-col h-full">
     <!-- This example requires Tailwind CSS v2.0+ -->
     <header class="sticky top-0 bg-white z-10 py-5 shadow">
       <div class="container mx-auto flex items-center px-4">
