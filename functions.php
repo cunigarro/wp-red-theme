@@ -6,7 +6,9 @@
 
     add_action('wp_enqueue_scripts', 'scripts_enqueue');
 
+    add_theme_support('post-thumbnails');
     add_theme_support('menus');
+    add_post_type_support( 'page', 'excerpt' );
 
     class Walker_Nav_Main_Menu extends Walker_Nav_Menu
     {
