@@ -25,3 +25,51 @@ body {
 h1,h2,h3,h4,h5,h6 {
   font-family: 'grenale_slabnorm', sans-serif;
 }
+
+.swiper-button-next, .swiper-button-prev {
+  --swiper-theme-color: #d05559;
+}
+
+.swiper-pagination-bullet-active {
+  --swiper-theme-color: #d05559;
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  --swiper-navigation-size: 32px;
+}
+
+.swiper-container {
+  height: auto;
+  width: 100%;
+  height: 100%;
+}
+
+@media screen and (min-width: 1140px) {
+  .swiper-container {
+    height: 500px;
+  }
+}
+
+.swiper-container .swiper-slide .text-container {
+  background: RGB(0,0,0,.4);
+  background: linear-gradient(90deg, RGBA(0,0,0,0.8785889355742297) 3%, RGBA(0,0,0,0.6937149859943977) 27%, RGBA(0,0,0,0) 65%);
+}
+
+.swiper-container .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
