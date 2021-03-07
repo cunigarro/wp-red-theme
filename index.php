@@ -10,11 +10,11 @@
           <div class="text-container absolute left-0 top-0 h-full w-full px-4">
             <div class="container px-4 flex items-center h-full w-full mx-auto text-white flex justify-center">
               <div class="w-full md:w-10/12">
-                <div class="text-left w-full sm:w-2/4">
-                  <h1 class="font-bold text-4xl lg:text-7xl leading-none mb-0 sm:mb-3">
+                <div class="text-left w-full">
+                  <h1 class="font-bold text-4xl leading-none mb-0 sm:mb-3 text-center">
                     <?php echo get_option('home_slider_title_1') ?>
                   </h1>
-                  <p class="font-light text-sm md:text-lg hidden sm:block">
+                  <p class="font-light text-sm md:text-lg hidden sm:block text-center">
                     <?php echo get_option('home_slider_excerpt_1') ?>
                   </p>
                 </div>
@@ -28,10 +28,10 @@
             <div class="container px-4 flex items-center h-full w-full mx-auto text-white flex justify-center">
               <div class="w-full md:w-10/12">
                 <div class="text-left w-full sm:w-2/4">
-                  <h1 class="font-bold text-4xl lg:text-7xl leading-none mb-0 sm:mb-3">
+                  <h1 class="font-bold text-4xl leading-none mb-0 sm:mb-3 text-center">
                     <?php echo get_option('home_slider_title_2') ?>
                   </h1>
-                  <p class="font-light text-sm md:text-lg hidden sm:block">
+                  <p class="font-light text-sm md:text-lg hidden sm:block text-center">
                     <?php echo get_option('home_slider_excerpt_2') ?>
                   </p>
                 </div>
@@ -45,17 +45,17 @@
             <div class="container px-4 flex items-center h-full w-full mx-auto text-white flex justify-center">
               <div class="w-full md:w-10/12">
                 <div class="text-left w-full sm:w-2/4">
-                  <h1 class="font-bold text-4xl lg:text-7xl leading-none mb-0 sm:mb-3">
+                  <h1 class="font-bold text-4xl leading-none mb-0 sm:mb-3 text-center">
                     <?php echo get_option('home_slider_title_3') ?>
                   </h1>
-                  <p class="font-light text-sm md:text-lg hidden sm:block">
+                  <p class="font-light text-sm md:text-lg hidden sm:block text-center">
                     <?php echo get_option('home_slider_excerpt_3') ?>
                   </p>
                 </div>
               </div>
             </div>
           </div>
-          <img src="<?php echo get_option('home_slider_image_3') ?>">
+          <img src="<?php echo get_option('home_slider_image_1') ?>">
         </div>
       </div>
       <!-- If we need navigation buttons -->
