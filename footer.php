@@ -21,7 +21,7 @@
                 </a>
               </li>
               <li>
-                <a class="text-xs hover:underline" href="">
+                <a class="text-xs hover:underline" href="/sobre-la-autora">
                   Sobre la autora
                 </a>
               </li>

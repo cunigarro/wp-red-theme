@@ -27,7 +27,7 @@
           <div class="text-container absolute left-0 top-0 h-full w-full px-4">
             <div class="container px-4 flex items-center h-full w-full mx-auto text-white flex justify-center">
               <div class="w-full md:w-10/12">
-                <div class="text-left w-full sm:w-2/4">
+                <div class="text-left w-full">
                   <h1 class="font-bold text-4xl leading-none mb-0 sm:mb-3 text-center">
                     <?php echo get_option('home_slider_title_2') ?>
                   </h1>
@@ -44,7 +44,7 @@
           <div class="text-container absolute left-0 top-0 h-full w-full px-4">
             <div class="container px-4 flex items-center h-full w-full mx-auto text-white flex justify-center">
               <div class="w-full md:w-10/12">
-                <div class="text-left w-full sm:w-2/4">
+                <div class="text-left w-full">
                   <h1 class="font-bold text-4xl leading-none mb-0 sm:mb-3 text-center">
                     <?php echo get_option('home_slider_title_3') ?>
                   </h1>
@@ -55,7 +55,7 @@
               </div>
             </div>
           </div>
-          <img src="<?php echo get_option('home_slider_image_1') ?>">
+          <img src="<?php echo get_option('home_slider_image_3') ?>">
         </div>
       </div>
       <!-- If we need navigation buttons -->
