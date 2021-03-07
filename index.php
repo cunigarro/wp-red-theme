@@ -21,7 +21,7 @@
               </div>
             </div>
           </div>
-          <img src="https://picsum.photos/id/1001/1500/700">
+          <img src="<?php echo get_option('home_slider_image_1') ?>">
         </div>
         <div class="swiper-slide relative">
           <div class="text-container absolute left-0 top-0 h-full w-full px-4">
@@ -38,7 +38,7 @@
               </div>
             </div>
           </div>
-          <img src="https://picsum.photos/id/1002/1500/700">
+          <img src="<?php echo get_option('home_slider_image_2') ?>">
         </div>
         <div class="swiper-slide relative">
           <div class="text-container absolute left-0 top-0 h-full w-full px-4">
@@ -55,7 +55,7 @@
               </div>
             </div>
           </div>
-          <img src="https://picsum.photos/id/1003/1500/700">
+          <img src="<?php echo get_option('home_slider_image_3') ?>">
         </div>
       </div>
       <!-- If we need navigation buttons -->
