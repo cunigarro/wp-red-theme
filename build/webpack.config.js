@@ -1,12 +1,15 @@
 const path = require('path');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
 const autoprefixer = require('autoprefixer');
-const tailwindcss = require('tailwindcss');
 
 module.exports = {
-  entry: ['./src/js/main.js'],
+  entry: {
+    'main': './src/js/main.js',
+    'admin-home-slider': './src/js/admin-home-slider.js',
+    'style': './src/scss/style.scss'
+  },
   output: {
-    filename: './dist/js/main.min.js',
+    filename: './dist/js/[name].min.js'
   },
   module: {
     rules: [
