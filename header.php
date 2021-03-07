@@ -19,8 +19,32 @@
           <img class="w-auto h-16" src="<?php echo get_template_directory_uri() . '/dist/img/logotipo.svg' ?>" alt="">
         </a>
         <div class="flex-1 text-right">
-          <div>
-            <i class="mdi mdi-instagram mdi-24px text-red-600"></i>
+
+
+          <div class="-mx-2">
+            <?php if (esc_attr(get_option('facebook'))): ?>
+              <a class="px-2 inline-block" href="<?php echo esc_attr(get_option('facebook')); ?>" target="_blank">
+                <i class="mdi mdi-facebook mdi-24px text-red-600"></i>
+              </a>
+            <?php endif; ?>
+
+            <?php if (esc_attr(get_option('instagram'))): ?>
+              <a class="px-2 inline-block" href="<?php echo esc_attr(get_option('instagram')); ?>" target="_blank">
+                <i class="mdi mdi-instagram mdi-24px text-red-600"></i>
+              </a>
+            <?php endif; ?>
+
+            <?php if (esc_attr(get_option('youtube'))): ?>
+              <a class="px-2 inline-block" href="<?php echo esc_attr(get_option('youtube')); ?>" target="_blank">
+                <i class="mdi mdi-youtube mdi-24px text-red-600"></i>
+              </a>
+            <?php endif; ?>
+
+            <?php if (esc_attr(get_option('twitter'))): ?>
+              <a class="px-2 inline-block" href="<?php echo esc_attr(get_option('twitter')); ?>" target="_blank">
+                <i class="mdi mdi-twitter mdi-24px text-red-600"></i>
+              </a>
+            <?php endif; ?>
           </div>
 
           <?php
