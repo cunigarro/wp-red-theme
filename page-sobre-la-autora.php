@@ -4,9 +4,38 @@
   <div class="col-span-4 text-center">
     <img class="w-80 h-80 inline-block mb-4" src="<?php echo get_template_directory_uri() . '/dist/img/foto-1.jpg' ?>" alt="">
     <ul class="flex justify-center">
-      <li class="w-10 h-10 bg-red-50 rounded-full flex justify-center items-center mr-3">
-        <i class="mdi mdi-twitter mdi-24px text-red-600"></i>
-      </li>
+      <?php if (esc_attr(get_option('facebook'))): ?>
+        <li class="w-10 h-10 bg-red-50 rounded-full flex justify-center items-center mr-3">
+          <a href="<?php echo esc_attr(get_option('facebook')); ?>" target="_blank">
+            <i class="mdi mdi-facebook mdi-24px text-red-600"></i>
+          </a>
+        </li>
+      <?php endif; ?>
+
+      <?php if (esc_attr(get_option('instagram'))): ?>
+        <li class="w-10 h-10 bg-red-50 rounded-full flex justify-center items-center mr-3">
+          <a href="<?php echo esc_attr(get_option('instagram')); ?>" target="_blank">
+            <i class="mdi mdi-instagram mdi-24px text-red-600"></i>
+          </a>
+        </li>
+      <?php endif; ?>
+
+      <?php if (esc_attr(get_option('youtube'))): ?>
+        <li class="w-10 h-10 bg-red-50 rounded-full flex justify-center items-center mr-3">
+          <a href="<?php echo esc_attr(get_option('youtube')); ?>" target="_blank">
+            <i class="mdi mdi-youtube mdi-24px text-red-600"></i>
+          </a>
+        </li>
+      <?php endif; ?>
+
+      <?php if (esc_attr(get_option('twitter'))): ?>
+        <li class="w-10 h-10 bg-red-50 rounded-full flex justify-center items-center mr-3">
+          <a href="<?php echo esc_attr(get_option('twitter')); ?>" target="_blank">
+            <i class="mdi mdi-twitter mdi-24px text-red-600"></i>
+          </a>
+        </li>
+      <?php endif; ?>
+
       <li class="w-10 h-10 bg-red-50 rounded-full flex justify-center items-center">
         <i class="mdi mdi-email-outline mdi-24px text-red-600"></i>
       </li>
