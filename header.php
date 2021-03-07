@@ -19,8 +19,6 @@
           <img class="w-auto h-16" src="<?php echo get_template_directory_uri() . '/dist/img/logotipo.svg' ?>" alt="">
         </a>
         <div class="flex-1 text-right">
-
-
           <div class="-mx-2">
             <?php if (esc_attr(get_option('facebook'))): ?>
               <a class="px-2 inline-block" href="<?php echo esc_attr(get_option('facebook')); ?>" target="_blank">

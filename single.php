@@ -10,15 +10,38 @@
         <div class="grid gap-10 grid-cols-12">
           <div class="col-span-1">
             <ul>
-              <li class="w-10 h-10 bg-red-50 text-red-600 rounded-full flex justify-center items-center mb-3">
-                <i class="mdi mdi-twitter mdi-24px"></i>
-              </li>
-              <li class="w-10 h-10 bg-red-50 text-red-600 rounded-full flex justify-center items-center mb-3">
-                <i class="mdi mdi-facebook mdi-24px"></i>
-              </li>
-              <li class="w-10 h-10 bg-red-50 text-red-600 rounded-full flex justify-center items-center mb-3">
-                <i class="mdi mdi-whatsapp mdi-24px"></i>
-              </li>
+              <?php if (esc_attr(get_option('facebook'))): ?>
+                <li class="w-10 h-10 bg-red-50 text-red-600 rounded-full flex justify-center items-center mb-3">
+                  <a href="<?php echo esc_attr(get_option('facebook')); ?>" target="_blank">
+                  <i class="mdi mdi-facebook mdi-24px"></i>
+                  </a>
+                </li>
+              <?php endif; ?>
+
+              <?php if (esc_attr(get_option('instagram'))): ?>
+                <li class="w-10 h-10 bg-red-50 text-red-600 rounded-full flex justify-center items-center mb-3">
+                  <a href="<?php echo esc_attr(get_option('instagram')); ?>" target="_blank">
+                  <i class="mdi mdi-instagram mdi-24px"></i>
+                  </a>
+                </li>
+              <?php endif; ?>
+
+              <?php if (esc_attr(get_option('youtube'))): ?>
+                <li class="w-10 h-10 bg-red-50 text-red-600 rounded-full flex justify-center items-center mb-3">
+                  <a href="<?php echo esc_attr(get_option('youtube')); ?>" target="_blank">
+                  <i class="mdi mdi-youtube mdi-24px"></i>
+                  </a>
+                </li>
+              <?php endif; ?>
+
+              <?php if (esc_attr(get_option('twitter'))): ?>
+                <li class="w-10 h-10 bg-red-50 text-red-600 rounded-full flex justify-center items-center mb-3">
+                  <a href="<?php echo esc_attr(get_option('twitter')); ?>" target="_blank">
+                  <i class="mdi mdi-twitter mdi-24px"></i>
+                  </a>
+                </li>
+              <?php endif; ?>
+
               <li class="w-10 h-10 bg-red-50 text-red-600 rounded-full flex justify-center items-center mb-3">
                 <i class="mdi mdi-email-outline mdi-24px"></i>
               </li>
@@ -40,24 +63,53 @@
                     Maritza Gómez
                   </p>
                   <ul class="flex">
-                    <li class="w-8 h-8 bg-red-50 rounded-full flex justify-center items-center mr-2">
-                      <i class="mdi mdi-twitter mdi-18px text-red-600"></i>
-                    </li>
+                    <?php if (esc_attr(get_option('facebook'))): ?>
+                      <li class="w-8 h-8 bg-red-50 rounded-full flex justify-center items-center mr-2">
+                        <a href="<?php echo esc_attr(get_option('facebook')); ?>" target="_blank">
+                          <i class="mdi mdi-facebook mdi-18px text-red-600"></i>
+                        </a>
+                      </li>
+                    <?php endif; ?>
+
+                    <?php if (esc_attr(get_option('instagram'))): ?>
+                      <li class="w-8 h-8 bg-red-50 rounded-full flex justify-center items-center mr-2">
+                        <a href="<?php echo esc_attr(get_option('instagram')); ?>" target="_blank">
+                          <i class="mdi mdi-instagram mdi-18px text-red-600"></i>
+                        </a>
+                      </li>
+                    <?php endif; ?>
+
+                    <?php if (esc_attr(get_option('youtube'))): ?>
+                      <li class="w-8 h-8 bg-red-50 rounded-full flex justify-center items-center mr-2">
+                        <a href="<?php echo esc_attr(get_option('youtube')); ?>" target="_blank">
+                          <i class="mdi mdi-youtube mdi-18px text-red-600"></i>
+                        </a>
+                      </li>
+                    <?php endif; ?>
+
+                    <?php if (esc_attr(get_option('twitter'))): ?>
+                      <li class="w-8 h-8 bg-red-50 rounded-full flex justify-center items-center mr-2">
+                        <a href="<?php echo esc_attr(get_option('twitter')); ?>" target="_blank">
+                          <i class="mdi mdi-twitter mdi-18px text-red-600"></i>
+                        </a>
+                      </li>
+                    <?php endif; ?>
+
                     <li class="w-8 h-8 bg-red-50 rounded-full flex justify-center items-center">
                       <i class="mdi mdi-email-outline mdi-18px text-red-600"></i>
                     </li>
                   </ul>
                 </div>
-                <p class="mb-3">
+                <p class="mb-0">
                   Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis, molestias iure sit inventore reprehenderit voluptates et alias voluptas eaque in maxime neque odio, dolor dolorem enim ratione nostrum sunt. Corporis.
                 </p>
-                <p class="font-bold text-red-600 text-md flex items-center justify-end cursor-pointer hover:underline">
+                <a href="/sobre-la-autora" class="inline-block font-bold text-red-600 text-md flex items-center justify-end cursor-pointer hover:underline">
                   <span class="mr-1">
                     Leer más
                   </span>
                   <i class="mdi mdi-chevron-right mdi-24px"></i>
                   <i class="mdi mdi-chevron-right mdi-24px -ml-4"></i>
-                </p>
+                </a>
               </div>
             </div>
           </div>
