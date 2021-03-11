@@ -1,13 +1,13 @@
 (function () {
   const imageBtns = document.querySelectorAll('#home_slider_image_btn');
 
-  let mediaUploader;
-
   imageBtns.forEach(imageBtn => {
     imageBtn.addEventListener('click', (e) => {
       e.preventDefault();
       const target = e.target;
       const parentNode = target.parentNode;
+
+      let mediaUploader = null;
 
       if (mediaUploader) {
         mediaUploader.open();
