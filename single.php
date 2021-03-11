@@ -7,8 +7,8 @@
       <img class="w-100 h-80 object-cover" src="<?php echo $url ?>">
 
       <div class="container mx-auto px-4 py-10 flex-1">
-        <div class="grid gap-10 grid-cols-12">
-          <div class="col-span-1">
+        <div class="grid gap-0 lg:gap-5 grid-cols-12">
+          <div class="col-span-1 hidden md:block">
             <ul>
               <?php if (esc_attr(get_option('facebook'))): ?>
                 <li class="w-10 h-10 bg-red-50 text-red-600 rounded-full flex justify-center items-center mb-3">
@@ -47,7 +47,7 @@
               </li>
             </ul>
           </div>
-          <div class="col-span-8 pt-5 text-gray-700">
+          <div class="col-span-12 md:col-span-11 pt-5 text-gray-700">
             <h2 class="text-4xl fold-semibold mb-6">
               <?php the_title(); ?>
             </h2>
@@ -56,7 +56,7 @@
 
             <hr class="border-red-600 border-1 my-10">
             <div class="flex">
-              <img class="w-28 h-28 mr-7" src="<?php echo get_template_directory_uri() . '/dist/img/foto-2.jpg' ?>" alt="">
+              <img class="w-28 h-28 mr-7 hidden sm:inline-block" src="<?php echo get_template_directory_uri() . '/dist/img/foto-2.jpg' ?>" alt="">
               <div class="flex-1">
                 <div class="mb-4 flex items-center">
                   <p class="font-semibold flex-1 text-red-600 text-lg">
@@ -113,7 +113,7 @@
               </div>
             </div>
           </div>
-          <div class="col-span-3 text-gray-700">
+          <!-- <div class="col-span-3 text-gray-700">
             <hr class="border-red-600 w-5/12 border-1 mb-4">
             <h3 class="mb-4 text-xl font-semibold">
               Lo más leído
@@ -136,7 +136,7 @@
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
               </p>
             </div>
-          </div>
+          </div> -->
         </div>
       </div>
     <?php }

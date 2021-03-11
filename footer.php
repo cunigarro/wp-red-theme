@@ -1,6 +1,6 @@
     <footer class="bg-red-50">
       <div class="container mx-auto px-4 border-b border-red-600">
-        <div class="pt-12 pb-6 grid grid-cols-3 gap-8">
+        <div class="pt-12 pb-6 grid grid-cols-1 md:grid-cols-3 gap-8">
           <div>
             <img class="mb-1 w-auto h-16 -mt-3 -ml-3" src="<?php echo get_template_directory_uri() . '/dist/img/logotipo.svg' ?>" alt="">
             <h4 class="mb-0 text-lg text-gray-600">
@@ -8,7 +8,7 @@
             </h4>
           </div>
 
-          <div class="flex px-14">
+          <div class="flex px-0 lg:px-14">
             <ul class="flex-1 text-gray-600">
               <li>
                 <a class="text-xs hover:underline" href="">

@@ -1,8 +1,8 @@
 <?php get_header(); ?>
 
 <div class="flex justify-center items-center mx-auto z-0 w-full container mx-auto">
-  <div class="w-full bg-gray-100">
-    <div class="swiper-container swiper-container-1 w-100">
+  <div class="w-full px-0 sm:px-4">
+    <div class="swiper-container swiper-container-1 w-100 bg-gray-100">
       <!-- Additional required wrapper -->
       <div class="swiper-wrapper">
         <!-- Slides -->
@@ -71,7 +71,7 @@
 <div class="container mx-auto text-light-orange px-4 flex-1">
   <!-- <img src="https://picsum.photos/1500/700" alt=""> -->
 
-  <div class="grid grid-cols-3 gap-8 py-10">
+  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 py-10">
 
     <?php
       $currentPage = get_query_var('paged');
@@ -88,9 +88,9 @@
           <a href="<?php the_permalink(); ?>" class="block bg-red-50">
             <?php $url = wp_get_attachment_url(get_post_thumbnail_id(get_the_ID())); ?>
             <?php if (!empty($url)): ?>
-              <img class="w-96 h-56 object-cover" src="<?php echo $url ?>">
+              <img class="w-full h-56 object-cover" src="<?php echo $url ?>">
             <?php else: ?>
-              <img class="w-96 h-56 object-cover" src="https://picsum.photos/id/999/200/100" alt="">
+              <img class="w-full h-56 object-cover" src="https://picsum.photos/id/999/200/100" alt="">
             <?php endif; ?>
 
             <div class="p-4 text-center text-black">
