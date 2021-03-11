@@ -11,12 +11,12 @@
           <div class="flex px-0 lg:px-14">
             <ul class="flex-1 text-gray-600">
               <li>
-                <a class="text-xs hover:underline" href="">
+                <a class="text-xs hover:underline" href="/post-recientes">
                   Post recientes
                 </a>
               </li>
               <li>
-                <a class="text-xs hover:underline" href="">
+                <a class="text-xs hover:underline" href="/post-populares">
                   Populares
                 </a>
               </li>
