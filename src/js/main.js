@@ -14,6 +14,9 @@ import '../fonts/insigne_-_grnd-norbol-webfont.woff2';
 import '../fonts/insigne_-_grnd-nordem-webfont.woff';
 import '../fonts/insigne_-_grnd-nordem-webfont.woff2';
 
+// Js
+import './load-more.js';
+
 var swiper1 = new Swiper ('.swiper-container-1', {
   speed: 1500,
   autoplay: {
