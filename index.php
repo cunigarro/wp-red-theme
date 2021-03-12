@@ -78,31 +78,42 @@
     ));
   ?>
 
-  <div
-    class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 py-10 posts-list"
-    data-page="<?= $currentPage ? $currentPage : 1; ?>"
-		data-max="<?= $paginationPosts->max_num_pages; ?>"
-  >
-    <?php
-      if (have_posts()):
-    ?>
+  <?php
+    if ($paginationPosts->have_posts()):
+  ?>
+    <div
+      class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 py-10 posts-list"
+      data-page="<?= $currentPage ? $currentPage : 1; ?>"
+      data-max="<?= $paginationPosts->max_num_pages; ?>"
+    >
       <?php
         while($paginationPosts->have_posts()) {
           $paginationPosts->the_post(); ?>
           <?php get_template_part('inc/templates/post'); ?>
         <?php }
       ?>
+    </div>
+  <?php endif; ?>
+
+  <div class="text-center">
+    <?php
+      if ($paginationPosts->max_num_pages != $currentPage && $paginationPosts->max_num_pages):
+    ?>
+      <p class="mb-3 text-xs uppercase text-red-900 font-semibold flex flex-col cursor-pointer hover:underline load-more">
+        <span>
+          Ver más artículos
+        </span>
+        <span class="inline-block mt-2 text-red-600">
+          <i class="mdi mdi-chevron-down mdi-24px"></i>
+        </span>
+      </p>
+    <?php elseif ($paginationPosts->max_num_pages == 0): ?>
+      <a href="/" class="text-xs uppercase text-red-900 font-semibold flex flex-col cursor-pointer hover:underline my-6">
+        <span>
+          Volver al Inicio
+        </span>
+      </a>
     <?php endif; ?>
-  </div>
-  <div class="text-center pb-6">
-    <p class="mb-3 text-xs uppercase text-red-900 font-semibold flex flex-col cursor-pointer hover:underline load-more">
-      <span>
-        Ver todos los artículos
-      </span>
-      <span class="inline-block mt-2 text-red-600">
-        <i class="mdi mdi-chevron-down mdi-24px"></i>
-      </span>
-    </p>
   </div>
 </div>
 
