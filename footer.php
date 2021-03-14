@@ -13,8 +13,8 @@
               wp_nav_menu(array(
                 'menu'              => 'footer-menu',
                 'container'         => false,
-                'menu_class'        => 'list-none text-gray-600 text-sm',
-                'walker'            => new Walker_Nav_Main_Menu()
+                'menu_class'        => 'list-none text-gray-600 text-sm flex-1',
+                'walker'            => new Walker_Nav_Footer_Menu()
               ));
             ?>
             <a href="/contactanos" class="block text-center cursor-pointer hover:underline text-red-700">
@@ -26,24 +26,6 @@
           </div>
 
           <div>
-            <!-- <div class="flex items-center mb-3 hover:underline text-red-600 cursor-pointer">
-              <i class="mdi mdi-instagram mdi-24px inline-block mr-2"></i>
-              <span class="font-semibold text-sm">
-                Instagram
-              </span>
-            </div>
-            <div class="-mx-1 text-right mb-3">
-              <img class="inline-block mx-1" src="https://picsum.photos/id/1005/50" alt="">
-              <img class="inline-block mx-1" src="https://picsum.photos/id/1006/50" alt="">
-              <img class="inline-block mx-1" src="https://picsum.photos/id/1009/50" alt="">
-              <img class="inline-block mx-1" src="https://picsum.photos/id/1008/50" alt="">
-            </div>
-            <div class="text-right">
-              <a href="#" class="text-xs mb-0 hover:underline text-gray-600">
-                Visitar cuenta
-              </a>
-            </div> -->
-
             <?= do_shortcode("[instagram-feed]"); ?>
           </div>
         </div>

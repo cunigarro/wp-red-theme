@@ -50,7 +50,7 @@
               'menu'              => 'header-menu',
               'container'         => false,
               'menu_class'        => 'list-none -mx-2 text-gray-600 hidden md:block',
-              'walker'            => new Walker_Nav_Main_Menu()
+              'walker'            => new Walker_Nav_Header_Menu()
             ));
           ?>
         </div>
@@ -61,7 +61,7 @@
             'menu'              => 'header-menu',
             'container'         => false,
             'menu_class'        => 'list-none -mx-2 text-gray-600 block md:hidden text-right mt-4',
-            'walker'            => new Walker_Nav_Main_Menu()
+            'walker'            => new Walker_Nav_Header_Menu()
           ));
         ?>
       </div>
