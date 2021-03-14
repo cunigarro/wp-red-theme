@@ -4,7 +4,7 @@
     while(have_posts()) {
       the_post(); ?>
       <?php $url = wp_get_attachment_url(get_post_thumbnail_id(get_the_ID())); ?>
-      <img class="w-100 h-80 object-cover" src="<?php echo $url ?>">
+      <img class="w-full h-80 object-cover" src="<?php echo $url ?>">
 
       <div class="container mx-auto px-4 py-10 flex-1">
         <div class="grid gap-0 lg:gap-5 grid-cols-12">

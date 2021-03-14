@@ -26,12 +26,12 @@
                 </a>
               </li>
             </ul>
-            <div class="text-center cursor-pointer hover:underline text-red-600">
+            <a href="/contactanos" class="block text-center cursor-pointer hover:underline text-red-700">
               <p class="text-sm font-semibold mb-0">
                 Escríbenos
               </p>
               <i class="mdi mdi-email-outline mdi-24px inline-block"></i>
-            </div>
+            </a>
           </div>
 
           <div>
@@ -57,7 +57,7 @@
       </div>
       <div class="container mx-auto px-4 py-3 flex text-gray-600">
         <p class="text-xs">
-          @ <strong>2020</strong> Voz Propia
+          @ <strong><?= date('Y'); ?></strong> Voz Propia
         </p>
         <div class="flex-1 py-2 text-xs font-semibold text-right">
           Creado por Sumapinta

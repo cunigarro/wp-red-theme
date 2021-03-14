@@ -1,4 +1,4 @@
-<div class="mb-10 bg-green p-3 flex items-center text-white rounded js-contact-alert hidden">
+<div class="mb-10 bg-red-700 p-3 flex items-center text-white rounded js-contact-alert hidden">
     <div class="flex items-center flex-1">
         <i class="mdi mdi-email-check mdi-24px mr-2"></i>
         Tu mensaje ha sido enviado de manera exitosa.
@@ -32,7 +32,7 @@
 
             <div class="text-left">
                 <button
-                    class="inline-flex items-center justify-center px-5 py-2 border border-transparent text-sm font-medium rounded-sm text-white uppercase bg-green"
+                    class="inline-flex items-center justify-center px-5 py-2 border border-transparent text-sm font-medium rounded-sm text-white uppercase bg-red-700 bg-red-900:hover"
                     type="submit"
                 >
                     Enviar mensaje
@@ -42,46 +42,18 @@
     </div>
     <div class="col-span-12 md:col-span-5">
         <p class="mb-4">
-            Para informaciones e inquietudes sobre la campaña por favor escribir a ambos correos, o bien se puede poner en contacto a través del formulario.
+            Aquí podrás escribirme directamente para generar algún contacto, si me necesitas los derechos sobre algún artículos.
         </p>
-        <p class="mb-4">
-            <span class="text-green mb-0">
-                <strong>
-                    Linda Vera
-                </strong>
-            </span>
-            <br>
-            <span>
-                Coordinadora de Incidencia
-            </span>
-            <br>
-            <a class="text-green hover:underline" href="mailto:linda.v@vozpropia-comerciojusto.org">
-                linda.v@vozpropia-comerciojusto.org
-            </a>
-        </p>
-        <p class="mb-3">
+        <p class="text-green mb-3 text-red-700">
             <strong>
-                Contacto en WFTO-LA:
+                Maritza Gómez
             </strong>
         </p>
-        <p class="mb-4">
-            <span class="text-green mb-0">
-                <strong>
-                    Zulma Brítez
-                </strong>
-            </span>
-            <br>
-            <span>
-                Secretaria Regional
-            </span>
-            <br>
-            <a class="text-green hover:underline" href="mailto:secretaria@wfto-la.org">
-                secretaria@wfto-la.org
-            </a>
+        <p class="mb-3">
+            Autora
         </p>
-
-        <p>
-            También nos encuentras en <a class="text-green hover:underline" href="https://www.facebook.com/ciudadescomerciojusto/" target="_blank">Facebook</a>
-        </p>
+        <a class="text-green hover:underline" href="mailto:maritza.gomez@gmail.com">
+            maritza.gomez@gmail.com
+        </a>
     </div>
 </div>
