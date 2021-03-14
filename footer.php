@@ -9,23 +9,14 @@
           </div>
 
           <div class="flex px-0 lg:px-14">
-            <ul class="flex-1 text-gray-600">
-              <li>
-                <a class="text-xs hover:underline" href="/post-recientes">
-                  Post recientes
-                </a>
-              </li>
-              <li>
-                <a class="text-xs hover:underline" href="/post-populares">
-                  Populares
-                </a>
-              </li>
-              <li>
-                <a class="text-xs hover:underline" href="/sobre-la-autora">
-                  Sobre la autora
-                </a>
-              </li>
-            </ul>
+            <?php
+              wp_nav_menu(array(
+                'menu'              => 'footer-menu',
+                'container'         => false,
+                'menu_class'        => 'list-none text-gray-600 text-sm',
+                'walker'            => new Walker_Nav_Main_Menu()
+              ));
+            ?>
             <a href="/contactanos" class="block text-center cursor-pointer hover:underline text-red-700">
               <p class="text-sm font-semibold mb-0">
                 Escríbenos
