@@ -1,6 +1,6 @@
     <footer class="bg-red-50">
       <div class="container mx-auto px-4 border-b border-red-600">
-        <div class="pt-12 pb-6 grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div class="pt-12 pb-4 grid grid-cols-1 md:grid-cols-3 gap-8">
           <div>
             <img class="mb-1 w-auto h-16 -mt-3 -ml-3" src="<?php echo get_template_directory_uri() . '/dist/img/logotipo.svg' ?>" alt="">
             <h4 class="mb-0 text-lg text-gray-600">
@@ -26,7 +26,7 @@
           </div>
 
           <div>
-            <div class="flex items-center mb-3 hover:underline text-red-600 cursor-pointer">
+            <!-- <div class="flex items-center mb-3 hover:underline text-red-600 cursor-pointer">
               <i class="mdi mdi-instagram mdi-24px inline-block mr-2"></i>
               <span class="font-semibold text-sm">
                 Instagram
@@ -42,7 +42,9 @@
               <a href="#" class="text-xs mb-0 hover:underline text-gray-600">
                 Visitar cuenta
               </a>
-            </div>
+            </div> -->
+
+            <?= do_shortcode("[instagram-feed]"); ?>
           </div>
         </div>
       </div>
