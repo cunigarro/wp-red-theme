@@ -10,21 +10,21 @@
     <div class="col-span-12 md:col-span-7">
         <form class="flex flex-col" id="contactForm" action="#" method="POST" data-url="<?php echo admin_url('admin-ajax.php'); ?>">
             <div class="mb-4">
-                <label class="block mb-2" for="">
+                <label class="block mb-2 text-red-700" for="">
                     Escribe tu nombre
                 </label>
                 <input class="border-2 p-3 w-full" type="text" placeholder="" id="name" name="name" required="required">
             </div>
 
             <div class="mb-4">
-                <label class="block mb-2" for="">
+                <label class="block mb-2 text-red-700" for="">
                     Escribe tu correo electrónico
                 </label>
                 <input class="border-2 p-3 w-full" type="email" placeholder="" id="email" name="email" required="required">
             </div>
 
             <div class="mb-4">
-                <label class="block mb-2" for="">
+                <label class="block mb-2 text-red-700" for="">
                     Escribe tu mensaje
                 </label>
                 <textarea class="border-2 p-3 w-full" name="message" id="message" cols="30" rows="10" required="required"></textarea>

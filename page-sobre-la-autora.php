@@ -37,7 +37,9 @@
       <?php endif; ?>
 
       <li class="w-10 h-10 bg-red-50 rounded-full flex justify-center items-center">
-        <i class="mdi mdi-email-outline mdi-24px text-red-600"></i>
+        <a href="/contactanos">
+          <i class="mdi mdi-email-outline mdi-24px text-red-600"></i>
+        </a>
       </li>
     </ul>
   </div>

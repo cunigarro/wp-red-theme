@@ -30,7 +30,7 @@ class Walker_Nav_Header_Menu extends Walker_Nav_Menu
         $attributes .= ! empty( $item->target ) ? ' target="' . esc_attr($item->target) . '"' : '';
         $attributes .= ! empty( $item->xfn ) ? ' rel="' . esc_attr($item->xfn) . '"' : '';
         $attributes .= ! empty( $item->url ) ? ' href="' . esc_attr($item->url) . '"' : '';
-        $attributes .= ( $item->current || $item->current_item_ancestor ) ? ' class="font-semibold"' : 'class=""';
+        $attributes .= ( $item->current || $item->current_item_ancestor ) ? ' class="font-semibold text-gray-600"' : 'class="text-gray-600"';
 
         $item_output = $args->before;
         $item_output .= '<a' . $attributes . '>';

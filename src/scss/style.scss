@@ -1,4 +1,20 @@
 @import "~tailwindcss/base";
+
+@layer base {
+  h1 {
+    @apply text-2xl;
+    margin-bottom: 1rem;
+  }
+  h2 {
+    @apply text-xl;
+    margin-bottom: .8rem;
+  }
+  h3 {
+    @apply text-lg;
+    margin-bottom: .5rem;
+  }
+}
+
 @import "~tailwindcss/components";
 @import "~tailwindcss/utilities";
 
@@ -71,4 +87,39 @@ h1,h2,h3,h4,h5,h6 {
   -ms-flex-align: center;
   -webkit-align-items: center;
   align-items: center;
+}
+
+p {
+  @apply mb-4;
+}
+
+a {
+  @apply text-red-700;
+}
+
+// Custom styles for latest posts
+.wp-block-latest-posts li a {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  margin-bottom: .5rem;
+  font-family: 'grenale_slabnorm', sans-serif;
+}
+
+// Custom styles for popular posts
+.wpp-list {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+}
+
+@media screen and (min-width: 540px) {
+  .wpp-list {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media screen and (min-width: 720px) {
+  .wpp-list {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
 }
