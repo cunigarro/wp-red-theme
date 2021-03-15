@@ -117,30 +117,6 @@
               </div>
             </div>
           </div>
-          <!-- <div class="col-span-3 text-gray-700">
-            <hr class="border-red-600 w-5/12 border-1 mb-4">
-            <h3 class="mb-4 text-xl font-semibold">
-              Lo más leído
-            </h3>
-            <div class="mb-6">
-              <img class="mb-3" src="https://picsum.photos/id/1010/400/200" alt="">
-              <p class="text-sm">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              </p>
-            </div>
-            <div class="mb-6">
-              <img class="mb-3" src="https://picsum.photos/id/1011/400/200" alt="">
-              <p class="text-sm">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              </p>
-            </div>
-            <div class="mb-6">
-              <img class="mb-3" src="https://picsum.photos/id/1012/400/200" alt="">
-              <p class="text-sm">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              </p>
-            </div>
-          </div> -->
         </div>
       </div>
     <?php }
