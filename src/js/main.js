@@ -16,6 +16,7 @@ import '../fonts/insigne_-_grnd-nordem-webfont.woff2';
 
 // Js
 import './contact-form.js';
+import './load-more.js';
 
 var swiper1 = new Swiper ('.swiper-container-1', {
   speed: 1500,

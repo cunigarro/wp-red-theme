@@ -7,11 +7,11 @@
   <?php endif; ?>
 
   <div class="p-4 text-center text-black">
-    <p class="mb-3 text-xs uppercase text-red-600 font-semibold">
+    <p class="mb-3 text-sm uppercase text-red-600 font-semibold">
       <?php the_title(); ?>
     </p>
-    <p class="mb-0 text-sm text-gray-600">
+    <div class="mb-0 text-md text-gray-600 font-light leading-6">
       <?php the_excerpt(); ?>
-    </p>
+    </div>
   </div>
 </a>
