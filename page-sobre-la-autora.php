@@ -44,7 +44,7 @@
     </ul>
   </div>
 
-  <div class="col-span-8 text-gray-700">
+  <div class="col-span-8 text-gray-700 font-content">
     <h2 class="text-4xl fold-semibold mb-6">
       Sobre la autora
     </h2>

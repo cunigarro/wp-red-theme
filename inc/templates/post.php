@@ -3,7 +3,9 @@
   <?php if (!empty($url)): ?>
     <img class="w-full h-56 object-cover" src="<?php echo $url ?>">
   <?php else: ?>
-    <img class="w-full h-56 object-cover" src="https://picsum.photos/id/999/200/100" alt="">
+    <div class="w-full h-56 object-cover bg-gray-200 flex items-center justify-center text-gray-400 text-sm uppercase">
+      Agregar Imagen
+    </div>
   <?php endif; ?>
 
   <div class="p-4 text-center text-black">

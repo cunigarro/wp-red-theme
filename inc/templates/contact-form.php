@@ -40,7 +40,7 @@
             </div>
         </form>
     </div>
-    <div class="col-span-12 md:col-span-5">
+    <div class="col-span-12 md:col-span-5 font-content">
         <p class="mb-4">
             Aquí podrás escribirme directamente para generar algún contacto, si me necesitas los derechos sobre algún artículos.
         </p>

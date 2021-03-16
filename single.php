@@ -5,7 +5,11 @@
       the_post(); ?>
       <?php $url = wp_get_attachment_url(get_post_thumbnail_id(get_the_ID())); ?>
       <?php if ($url): ?>
-        <img class="w-full h-80 object-cover" src="<?php echo $url ?>">
+        <img class="w-full h-80 sm:h-96 object-cover" src="<?php echo $url ?>">
+      <?php else: ?>
+        <div class="w-full object-cover bg-gray-200 flex items-center justify-center text-gray-400 text-sm uppercase py-28">
+          Agregar Imagen
+        </div>
       <?php endif; ?>
 
       <div class="container mx-auto px-4 py-10 flex-1">
@@ -51,19 +55,20 @@
               </li>
             </ul>
           </div>
-          <div class="col-span-12 md:col-span-11 pt-5 text-gray-700">
+          <div class="col-span-12 md:col-span-11 text-gray-700">
             <h2 class="text-4xl fold-semibold mb-6">
               <?php the_title(); ?>
             </h2>
-
-            <?php the_content(); ?>
+            <div class="font-content text-lg">
+              <?php the_content(); ?>
+            </div>
 
             <hr class="border-red-600 border-1 my-10">
             <div class="flex">
               <img class="w-28 h-28 mr-7 hidden sm:inline-block" src="<?php echo get_template_directory_uri() . '/dist/img/foto-2.jpg' ?>" alt="">
               <div class="flex-1">
-                <div class="mb-4 flex items-center">
-                  <p class="font-semibold flex-1 text-red-600 text-lg">
+                <div class="mb-3 flex items-center">
+                  <p class="font-semibold flex-1 text-red-600 text-lg font-content mb-0">
                     Maritza Gómez
                   </p>
                   <ul class="flex">
@@ -106,11 +111,11 @@
                     </li>
                   </ul>
                 </div>
-                <p class="mb-0">
+                <p class="mb-1 font-content">
                   Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis, molestias iure sit inventore reprehenderit voluptates et alias voluptas eaque in maxime neque odio, dolor dolorem enim ratione nostrum sunt. Corporis.
                 </p>
                 <a href="/sobre-la-autora" class="inline-block font-bold text-red-600 text-md flex items-center justify-end cursor-pointer hover:underline">
-                  <span class="mr-1">
+                  <span class="mr-1 font-content font-medium">
                     Leer más
                   </span>
                   <i class="mdi mdi-chevron-right mdi-24px"></i>
