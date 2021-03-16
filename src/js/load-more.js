@@ -28,8 +28,6 @@ const ajaxLoadMore = () => {
 
           window.history.pushState('', '', baseUrl + 'page/' + (parseInt(document.querySelector('.posts-list').dataset.page) + 1));
 
-          console.log(parseInt(document.querySelector('.posts-list').dataset.page));
-
           document.querySelector('.posts-list').dataset.page++;
 
           if (document.querySelector('.posts-list').dataset.page == document.querySelector('.posts-list').dataset.max) {

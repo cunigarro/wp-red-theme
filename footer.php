@@ -17,7 +17,7 @@
                 'walker'            => new Walker_Nav_Footer_Menu()
               ));
             ?>
-            <a href="/contactanos" class="block text-center cursor-pointer hover:underline text-red-700">
+            <a href="/contacto" class="block text-center cursor-pointer hover:underline text-red-700">
               <p class="text-sm font-semibold mb-0">
                 Escríbenos
               </p>

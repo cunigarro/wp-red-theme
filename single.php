@@ -49,7 +49,7 @@
               <?php endif; ?>
 
               <li class="w-10 h-10 bg-red-50 text-red-600 rounded-full flex justify-center items-center mb-3">
-                <a href="/contactanos">
+                <a href="/contacto">
                   <i class="mdi mdi-email-outline mdi-24px"></i>
                 </a>
               </li>
@@ -105,7 +105,7 @@
                     <?php endif; ?>
 
                     <li class="w-8 h-8 bg-red-50 rounded-full flex justify-center items-center">
-                      <a href="/contactanos">
+                      <a href="/contacto">
                         <i class="mdi mdi-email-outline mdi-18px text-red-600"></i>
                       </a>
                     </li>
