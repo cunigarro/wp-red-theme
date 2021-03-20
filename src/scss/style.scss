@@ -67,10 +67,6 @@ h1,h2,h3,h4,h5,h6 {
   }
 }
 
-.swiper-container .swiper-slide .text-container {
-  background: RGBA(0,0,0,.4);
-}
-
 .swiper-container .swiper-slide {
   text-align: center;
   font-size: 18px;
@@ -127,4 +123,9 @@ a {
 // Font content
 .font-content {
   font-family: 'Noto Sans', sans-serif;
+}
+
+// Image opacity for better contrast with texts
+.img-opacity .text-container {
+  background: RGBA(0,0,0,.4);
 }

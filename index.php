@@ -6,7 +6,7 @@
       <!-- Additional required wrapper -->
       <div class="swiper-wrapper">
         <!-- Slides -->
-        <div class="swiper-slide relative">
+        <div class="swiper-slide img-opacity relative">
           <div class="text-container absolute left-0 top-0 h-full w-full px-4">
             <div class="container px-4 flex items-center h-full w-full mx-auto text-white flex justify-center">
               <div class="w-full md:w-10/12">
@@ -23,7 +23,7 @@
           </div>
           <img src="<?php echo get_option('home_slider_image_1') ?>">
         </div>
-        <div class="swiper-slide relative">
+        <div class="swiper-slide img-opacity relative">
           <div class="text-container absolute left-0 top-0 h-full w-full px-4">
             <div class="container px-4 flex items-center h-full w-full mx-auto text-white flex justify-center">
               <div class="w-full md:w-10/12">
@@ -40,7 +40,7 @@
           </div>
           <img src="<?php echo get_option('home_slider_image_2') ?>">
         </div>
-        <div class="swiper-slide relative">
+        <div class="swiper-slide img-opacity relative">
           <div class="text-container absolute left-0 top-0 h-full w-full px-4">
             <div class="container px-4 flex items-center h-full w-full mx-auto text-white flex justify-center">
               <div class="w-full md:w-10/12">

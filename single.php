@@ -4,13 +4,33 @@
     while(have_posts()) {
       the_post(); ?>
       <?php $url = wp_get_attachment_url(get_post_thumbnail_id(get_the_ID())); ?>
-      <?php if ($url): ?>
-        <img class="w-full h-80 sm:h-96 object-cover" src="<?php echo $url ?>">
-      <?php else: ?>
-        <div class="w-full object-cover bg-gray-200 flex items-center justify-center text-gray-400 text-sm uppercase py-28">
-          Agregar Imagen
+
+      <div class="relative img-opacity">
+        <div class="text-container absolute left-0 top-0 h-full w-full px-4">
+          <div class="container px-4 flex items-center h-full w-full mx-auto text-white flex justify-center">
+            <div class="w-full md:w-10/12">
+              <div class="text-left w-full">
+                <h1 class="font-bold text-4xl leading-none mb-0 sm:mb-3">
+                  <?php the_title(); ?>
+                </h1>
+                <p class="text-sm italic mb-0">
+                  Publicado el <?php the_time( 'l, j \d\e F \d\e Y' ); ?>.
+                </p>
+                <p class="text-sm mb-0">
+                  <span class="italic">Por</span> <?php the_author() ?>
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
-      <?php endif; ?>
+        <?php if ($url): ?>
+          <img class="w-full h-80 sm:h-96 object-cover" src="<?php echo $url ?>">
+        <?php else: ?>
+          <div class="w-full object-cover bg-gray-200 flex items-center justify-center text-gray-400 text-sm uppercase py-28">
+            Agregar Imagen
+          </div>
+        <?php endif; ?>
+      </div>
 
       <div class="container mx-auto px-4 py-10 flex-1">
         <div class="grid gap-0 lg:gap-5 grid-cols-12">
@@ -56,9 +76,6 @@
             </ul>
           </div>
           <div class="col-span-12 md:col-span-11 text-gray-700">
-            <h2 class="text-4xl fold-semibold mb-6">
-              <?php the_title(); ?>
-            </h2>
             <div class="font-content text-lg">
               <?php the_content(); ?>
             </div>
