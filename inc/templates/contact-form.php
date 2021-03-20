@@ -41,10 +41,10 @@
         </form>
     </div>
     <div class="col-span-12 md:col-span-5 font-content">
-        <p class="mb-4">
-            Aquí podrás escribirme directamente para generar algún contacto, si me necesitas los derechos sobre algún artículos.
+        <p class="mb-4 text-base">
+            Aquí podrás escribirme directamente para generar algún contacto o si necesitas los derechos sobre alguno de mis artículos.
         </p>
-        <p class="text-green mb-3 text-red-700">
+        <p class="text-green text-red-700 mb-0 font-bold text-base">
             <strong>
                 Maritza Gómez
             </strong>
