@@ -76,7 +76,7 @@
             </ul>
           </div>
           <div class="col-span-12 md:col-span-11 text-gray-700">
-            <div class="font-content text-lg">
+            <div class="font-content text-lg wp-content">
               <?php the_content(); ?>
             </div>
 
