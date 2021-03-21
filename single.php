@@ -129,7 +129,7 @@
                   </ul>
                 </div>
                 <p class="mb-1 font-content">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis, molestias iure sit inventore reprehenderit voluptates et alias voluptas eaque in maxime neque odio, dolor dolorem enim ratione nostrum sunt. Corporis.
+                  Nací en 1965, perteneciente a una generación de transición. Cuando era niña debía hacer lo que decían mis padres, cuando fui madre escuché lo que querían mis hijos. He tenido que romper muchas cadenas y estereotipos para ser la mujer que soy ahora.
                 </p>
                 <a href="/sobre-la-autora" class="inline-block font-bold text-red-600 text-md flex items-center justify-end cursor-pointer hover:underline">
                   <span class="mr-1 font-content font-medium">
