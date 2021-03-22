@@ -30,11 +30,11 @@
           </div>
         </div>
       </div>
-      <div class="container mx-auto px-4 py-3 flex text-gray-600">
-        <p class="text-xs">
+      <div class="container mx-auto px-4 py-5 flex text-gray-600 flex items-center">
+        <p class="text-xs mb-0">
           @ <strong><?= date('Y'); ?></strong> Voz Propia
         </p>
-        <div class="flex-1 py-2 text-xs font-semibold text-right">
+        <div class="flex-1 text-xs font-semibold text-right">
           Creado por Sumapinta
         </div>
       </div>
