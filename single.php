@@ -81,6 +81,7 @@
             </div>
 
             <hr class="border-red-600 border-1 my-10">
+
             <div class="flex">
               <img class="w-28 h-28 mr-7 hidden sm:inline-block" src="<?php echo get_template_directory_uri() . '/dist/img/foto-2.jpg' ?>" alt="">
               <div class="flex-1">
@@ -139,6 +140,16 @@
                   <i class="mdi mdi-chevron-right mdi-24px -ml-4"></i>
                 </a>
               </div>
+            </div>
+
+            <hr class="border-red-600 border-1 my-8">
+
+            <div class="wp-content">
+              <?php
+                if(comments_open()) {
+                  comments_template();
+                }
+              ?>
             </div>
           </div>
         </div>
