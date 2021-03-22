@@ -37,12 +37,11 @@
       endif;
     ?>
 
+    <hr class="border-gray-400 border-1 my-8">
 
   <?php
     endif;
   ?>
-
-  <hr class="border-gray-400 border-1 my-8">
 
   <div class="comments-form">
     <?php comment_form() ?>
