@@ -52,8 +52,8 @@
         <p class="mb-3">
             Autora
         </p>
-        <a class="text-green hover:underline" href="mailto:maritza.gomez@gmail.com">
-            maritza.gomez@gmail.com
+        <a class="text-green hover:underline" href="mailto:vozpropia2020@gmail.com">
+            vozpropia2020@gmail.com
         </a>
     </div>
 </div>

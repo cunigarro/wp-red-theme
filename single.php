@@ -130,7 +130,7 @@
                   </ul>
                 </div>
                 <p class="mb-1 font-content">
-                  Nací en 1965, perteneciente a una generación de transición. Cuando era niña debía hacer lo que decían mis padres, cuando fui madre escuché lo que querían mis hijos. He tenido que romper muchas cadenas y estereotipos para ser la mujer que soy ahora.
+                  Bienvenido a mi blog, quiero compartir contigo mis escritos. Te invito a recorrer el camino desde las experiencias, los sueños y las reflexiones.
                 </p>
                 <a href="/sobre-la-autora" class="inline-block font-bold text-red-600 text-md flex items-center justify-end cursor-pointer hover:underline">
                   <span class="mr-1 font-content font-medium">
